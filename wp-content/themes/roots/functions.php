@@ -62,7 +62,7 @@ function my_custom_resorts() {
         'capability_type' => 'post',
         'hierarchical' => false,
         'menu_position' => null,
-        'supports' => array( 'author', 'thumbnail')
+        'supports' => array('thumbnail')
     );
  
     register_post_type( 'Resort', $args ); /* Registramos y a funcionar */
